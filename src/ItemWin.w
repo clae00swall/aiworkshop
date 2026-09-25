@@ -146,7 +146,7 @@ IF SESSION:DISPLAY-TYPE = "GUI":U THEN
          VIRTUAL-WIDTH      = 80
          RESIZE             = yes
          SCROLL-BARS        = no
-         STATUS-AREA       = no
+         STATUS-AREA        = no
          BGCOLOR            = ?
          FGCOLOR            = ?
          KEEP-FRAME-Z-ORDER = yes
@@ -185,6 +185,7 @@ THEN C-Win:HIDDEN = no.
  
 
 
+
 /* ************************  Control Triggers  ************************ */
 
 &Scoped-define SELF-NAME C-Win
@@ -199,6 +200,7 @@ END.
 
 /* _UIB-CODE-BLOCK-END */
 &ANALYZE-RESUME
+
 
 &ANALYZE-SUSPEND _UIB-CODE-BLOCK _CONTROL C-Win C-Win
 ON WINDOW-CLOSE OF C-Win /* <insert window title> */
