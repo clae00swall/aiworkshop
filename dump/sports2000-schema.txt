@@ -1,0 +1,9 @@
+Sports2000 database schema summary (from ProjectGengar Step-16 dump/sports2000.df)
+
+The original OpenEdge schema is a .df dump containing 25 tables, their fields and indexes, and 13 sequences. This summary is for reference only; it cannot be loaded as an OpenEdge .df schema.
+
+Tables: Benefits, BillTo, Bin, Customer, Department, Employee, Family, Feedback, InventoryTrans, Invoice, Item, LocalDefault, Order, OrderLine, POLine, PurchaseOrder, RefCall, Salesrep, ShipTo, State, Supplier, SupplierItemXref, TimeSheet, Vacation, Warehouse.
+
+Sequences: NextCustNum, NextInvNum, NextOrdNum, NextItemNum, NextRefNum, NextVisitor, NextSupplNum, NextLocalDefNum, NextWareNum, NextBinNum, NextPONum, NextEmpNum, NextInvTransNum.
+
+To build against the sports database, use the complete dump/sports2000.df from the source ProjectGengar Step-16 branch. The summary does not replace the full schema referenced by openedge-project.json.
